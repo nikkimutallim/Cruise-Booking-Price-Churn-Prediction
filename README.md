@@ -6,6 +6,11 @@ The project showcases the power of regression models, including Linear Regressio
 
 One of the project's highlights is the selection of the best-performing model, which, in this case, is Polynomial Regression with a degree of 3. It achieves an impressive R2 score of 0.95, indicating its superior predictive capabilities. Furthermore, the project offers business recommendations based on these insights. These include optimizing pricing strategies, enhancing the cruise booking experience, and tailoring marketing efforts to specific customer segments. By implementing these recommendations, stakeholders in the cruise industry can unlock substantial revenue growth potential.
 
+# Churn Prediction for Cruise Bookings
+
+I tackled churn prediction for cruise bookings - whether the customer canceled their booking or not, a critical concern for the travel industry. Leveraging techniques like Random Forest, XGBoost, CatBoost, and Support Vector Machines, I achieved a 71% accuracy with the CatBoost algorithm in identifying potential booking cancellations.  This predictive capability empowers businesses to take proactive measures to retain customers, whether through targeted marketing or personalized offers, ultimately safeguarding revenue streams. 
+Later on, I will use hyperparameter tuning and utilize Grid Search to boost my accuracy further.
+
 # Business Recommendations Summary
 
 Booking Lead Time Matters: Encourage early bookings with discounts or promotions to increase revenue, as longer booking lead times tend to result in higher prices paid for cruises.
@@ -17,6 +22,12 @@ Duration and Price Relationship: Investigate non-linear relationships between cr
 Customer Group Size: Develop targeted marketing strategies or loyalty programs to attract larger booking groups, as they tend to pay slightly higher prices.
 
 Interpreting Differences: Recognize that popularity and revenue don't always align. Routes with fewer bookings may still yield substantial revenue if they cater to a premium clientele. Strategic decisions should balance popularity and revenue potential.
+
+Resource Optimization: Knowing which bookings are likely to cancel can help the company allocate its resources more effectively. For instance, if the model predicts that a particular cruise has a high likelihood of cancellations, the company can reduce the number of staff and supplies allocated to that cruise, saving costs.
+
+Improved Customer Experience: The model can help the company improve the overall customer experience by identifying pain points or issues that lead to cancellations. For example, if a specific route or cabin type has a higher cancellation rate, the company can investigate and address the reasons behind it, such as inadequate facilities or poor customer service.
+
+Tailored Marketing: The predictive model can be used to segment customers based on their likelihood of canceling. The company can then tailor marketing campaigns and communication strategies to each segment. For customers at a high risk of cancellation, the company can offer additional perks or assistance.
 
 # Getting Insights using SQL
 
