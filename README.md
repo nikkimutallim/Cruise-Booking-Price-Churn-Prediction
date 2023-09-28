@@ -17,3 +17,45 @@ Duration and Price Relationship: Investigate non-linear relationships between cr
 Customer Group Size: Develop targeted marketing strategies or loyalty programs to attract larger booking groups, as they tend to pay slightly higher prices.
 
 Interpreting Differences: Recognize that popularity and revenue don't always align. Routes with fewer bookings may still yield substantial revenue if they cater to a premium clientele. Strategic decisions should balance popularity and revenue potential.
+
+# Getting Insights using SQL
+
+Later on, I used Microsoft SQL Server Management Studio for:
+
+1)Database Creation:
+
+I created a SQL Server database named "Cruise."
+
+2)Tables Creation:
+
+I created three tables: CruiseTable, PassengerTable, and PassengerInfoTable.
+CruiseTable stores information about luxury cruises, including route, embark and disembark ports, cabin type, duration, and more.
+PassengerTable is used to track passengers on these cruises, including their names and ages.
+PassengerInfoTable contains additional information about passengers, such as race and nationality.
+Data Insertion:
+
+I inserted sample data into these tables, including details of 37 cruises, 68 passengers, and associated passenger information.
+
+3)SQL Queries:
+
+I executed various SQL queries to explore and retrieve data from these tables.
+Queries included basic SELECT statements, aggregations, filtering, and joins between tables.
+I used SQL functions, such as GROUP BY, ORDER BY, COUNT, and AVG.
+I practiced subqueries, common table expressions (CTEs), and window functions for more advanced data analysis.
+
+4)Data Analysis:
+
+I gained insights into the luxury cruise data by querying and analyzing it.
+Explored average cruise durations, passenger counts, and more.
+
+5)Data Transformation:
+
+I performed data transformations like calculating averages, identifying popular routes, and creating hierarchies.
+
+6)Additional Tasks:
+
+I handled NULL values, implemented case statements, and created views for convenience.
+Common Table Expressions (CTEs) and Window Functions:
+
+I utilized CTEs for organizing complex queries and creating temporary result sets.
+I demonstrated window functions to perform calculations over specific data windows.
